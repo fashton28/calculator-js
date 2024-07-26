@@ -1,4 +1,5 @@
 body {
+    font-family: "Tiny5", sans-serif;
     background-color: bisque;
     padding:0;
     margin:0;
@@ -27,6 +28,7 @@ body {
 .header{
     display: flex;
     justify-content: right;
+    align-items: center;
     background-color: gray;
     border-radius:10px;
     margin-top:10px;
@@ -59,4 +61,8 @@ body {
 
 .operation {
     background-color: burlywood;
+}
+
+h1 {
+    font-size: 50px;
 }
